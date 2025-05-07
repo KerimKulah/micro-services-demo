@@ -1,0 +1,11 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    password: 12345
+    url: jdbc:postgresql://localhost:5432/authDB
+  jpa:
+    hibernate:
+      ddl-auto: update
